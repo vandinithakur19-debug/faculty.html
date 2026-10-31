@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathematics Department Timetable</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="timetable-wrap">
+    <table class="timetable">
+      <thead>
+        <tr>
+          <th class="day-column" scope="col"></th>
+          <th scope="col"><span class="period">1</span>8.45–9.45 am</th>
+          <th scope="col"><span class="period">2</span>9.45–10.45 am</th>
+          <th scope="col"><span class="period">3</span>10.45–11.45 am</th>
+          <th scope="col"><span class="period">4</span>11.45–12.45 am/pm</th>
+          <th class="lunch-heading" scope="col"></th>
+          <th scope="col"><span class="period">5</span>1.05–2.05 pm</th>
+          <th scope="col"><span class="period">6</span>2.05–3.05 pm</th>
+          <th scope="col"><span class="period">7</span>3.05–4.05 pm</th>
+          <th scope="col"><span class="period">8</span>4.05–5.05 pm</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="day" scope="row">Monday</th>
+          <td class="green">GE V Th<br>A3/A4/B4<br>SS/NNK/VJ</td>
+          <td>DSC 14<br>209<br>RT</td>
+          <td>DSE 3<br>A4/B4/ICT Lab III<br>RKB/PD/RQ</td>
+          <td>DSE 3<br>A4/B4/ICT Lab III<br>RKB/PD/RQ</td>
+          <td class="lunch-space"></td>
+          <td>DSC 13<br>209<br>Guest 2</td>
+          <td>DSC 13 Tut<br>Lab III<br>Guest 2</td>
+          <td>DSC 15<br>102<br>PD</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="day" scope="row">Tuesday</th>
+          <td>DSE 3<br>102/209/A4<br>RKB/PD/RQ</td>
+          <td>DSC 15<br>209<br>PD</td>
+          <td>DSC 14 Tut<br>A4<br>RT</td>
+          <td>*ECA</td>
+          <td class="lunch" rowspan="4">
+            <span>12.45–1.05 pm</span>
+            <strong>Lunch break</strong>
+          </td>
+          <td class="lab" colspan="2">
+            <span class="arrow">←────────────→</span>
+            DSC 15 ICT Lab III<br>(Batch A + B)<br>PR/PR
+          </td>
+          <td>DSC 13 Tut<br>209<br>Guest 2</td>
+          <td></td>
+        </tr>   
+        <tr>
+          <th class="day" scope="row">Wednesday</th>
+          <td>DSC 13<br>209<br>Guest 2</td>
+          <td>DSC 14<br>A4<br>RT</td>
+          <td>DSC 14 Tut<br>A4<br>RT</td>
+          <td></td>
+          <td class="green lab" colspan="4">
+            <div class="session-pair">
+              <div class="session">
+                <span class="arrow">←────────→</span>
+                GE V Practical — ICT Lab III<br>SS
+              </div>
+              <div class="session">
+                <span class="arrow">←────────→</span>
+                GE V Practical — ICT Lab III<br>VJ
+              </div>
+            </div>
+            <div class="session-pair session-lower">
+              <div class="session">GE V Th<br>209/A4<br>VJ/NNK</div>
+              <div class="session">GE V Th 102 SS<br>GE V Tut A4<br>NNK</div>
+              <div class="session">*ECA</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th class="day" scope="row">Thursday</th>
+          <td class="green">GE V Th<br>A3/A4/B4<br>SS/NNK/VJ</td>
+          <td>DSC 14<br>209<br>RT</td>
+          <td>DSC 13<br>102<br>Guest 2</td>
+          <td>DSE 3 Tut<br>ICT Lab III<br>RKB</td>
+          <td class="lab" colspan="2">
+            <span class="arrow">←────────────→</span>
+            DSC 15 ICT Lab III<br>(Batch A)<br>PR/SY
+          </td>
+          <td>DSC 13 Tut<br>209<br>Guest 2</td>
+          <td>*ECA</td>
+        </tr>
+        <tr>
+          <th class="day" scope="row">Friday</th>
+          <td colspan="2">
+            <div class="session">
+              <span class="arrow">←────────────→</span>
+              DSE 3 (iv) TMH ICT Lab III<br>RO/SS
+            </div>
+            <div class="session secondary">DSE 3 Tut A4 / DSE 3 Tut A4/B4<br>RKB / RKB/PD</div>
+          </td>
+          <td>DSC 15<br>A4<br>PD</td>
+          <td>DSC 14 Tut<br>A4<br>RT</td>
+          <td class="blue lab" colspan="4">
+            <span class="arrow">←────────────────────────→</span>
+            SEC Semester V ICT Lab III<br>VJ/SY
+          </td>
+        </tr>
+        <tr>
+          <th class="day" scope="row">Saturday</th>
+          <td></td><td></td><td></td><td></td>
+          <td class="lunch-space"></td>
+          <td></td><td></td><td></td><td></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
